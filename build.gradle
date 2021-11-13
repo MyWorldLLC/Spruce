@@ -23,6 +23,12 @@ plugins {
 group = 'myworld'
 version = findProperty('release') ? findProperty('release') : '1.0.0-SNAPSHOT'
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(16)
+    }
+}
+
 repositories {
     mavenCentral()
 }
@@ -61,5 +67,3 @@ publishing {
         }
     }
 }
-sourceCompatibility = JavaVersion.VERSION_16
-targetCompatibility = JavaVersion.VERSION_16
