@@ -1,4 +1,4 @@
-# Spruce
+# Spruce :evergreen_tree:
 Fresh, trim, &amp; lightweight JDBC wrapper
 
 ## Why use Spruce?
