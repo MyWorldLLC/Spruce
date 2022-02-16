@@ -8,7 +8,7 @@ since then, as have other contemporary database APIs. Spruce
 provides a tiny (~300 lines of code), modern API wrapper around
 JDBC that greatly simplifies most common access patterns. When
 you want to do something that Spruce doesn't support, it's
-trivially easy to directly access JDBC directly.
+trivially easy to access JDBC directly.
 
 Note that Spruce is not (and does not aspire to be) an ORM.
 It does not have any features for mapping objects to/from
